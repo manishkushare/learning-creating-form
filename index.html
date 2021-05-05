@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <!-- form element is used to wrap the all elements included inside form  -->
+    <div class="container">
+        <form action="" class="form-col">
+
+            <legend>Form</legend>
+            <fieldset>
+                <div class="username flex">
+                    <label for="username">Username</label>  
+                    <input type="text" name="username" id="username">
+
+                </div>
+
+                <div class="flex birthday ">
+                    <label for="birthday">birthday</label>
+                    <input type="date" name="birthday" id="birthday">
+
+                </div>                
+                
+                <div class="flex time-div">
+                    <label for="time">time</label>
+                        <input type="time" name="game-time" id="time">
+
+                </div>
+                <div class="flex email-div">
+
+                    <label for="email">email</label>
+                        <input type="email" name="email-address" id="email">
+                </div>
+                <div class="flex url-div">
+
+                    <label for="url">url</label>
+                        <input type="url" name="website" id="url">
+                </div>
+
+                <div class="flex number-div">
+
+                    <label for="number">number</label>
+                        <input type="number" name="cost" id="number">
+                </div>
+                <div class="flex telephone-div">
+
+                    <label for="telephone">telephone</label>
+                        <input type="tel" name="phone-number" id="telephone">
+                </div>
+                <div class="flex comment-div">
+                    <label for="comment">comment</label>
+    
+                        <textarea name="comment" id="" cols="30" rows="10" id="comment"></textarea>
+    
+                </div>
+                    <!-- radio button -->
+                    
+                <div class="radio-button flex">
+                    <label>
+                        <input type="radio" name="day" value ="Mon" id="" checked>Mon
+                    </label>
+                    <label >
+                        <input type="radio" name="day" value = "Tue"   id="">Tue
+
+                    </label>
+                    <label for="">
+                        <input type="radio" name="day" value = "Wed"   id="">Wed
+
+                    </label>
+                    <label for="">
+                        <input type="radio" name="day" value = "Thur"   id="">Thur
+
+                    </label>
+                </div>
+                
+                <!-- checkbox -->
+                <div class="checkbox flex">
+                    <label for="">
+                        <input type="checkbox" name="hey" value = "one" id=""> One
+
+                    </label>
+                    <label for="">
+
+                        <input type="checkbox" name="hey" value = "Two" id="">Two
+                    </label>
+                    <label for="">
+
+                        <input type="checkbox" name="hey" value = "Two" id="">Three
+                    </label>
+                    <label for="">
+                        <input type="checkbox" name="hey" value = "Two" id="">Four
+
+                    </label>
+
+                </div>
+                
+                <div class="dropdown-list flex">
+                    <select name="day" id="">
+                      <option value="Mon" selected>Mon</option>
+                      <option value="Tue">Tue</option>
+                      <option value="Wed">Wed</option>
+                      <option value="Thur">Thurs</option>
+                    </select>
+
+                </div>
+                
+                <!-- <select name="hello" id="" multiple>
+                    <option value="Mon" selected>Mon</option>
+                    <option value="Tue">Tue</option>
+                    <option value="Wed">Wed</option>
+                    <option value="Thur">Thurs</option>
+                </select> -->
+               
+                <div class="file-input flex">
+
+                    <input type="file" name="" id="">
+                </div>
+                 <div class="hidden-input">
+
+                    <input type="hidden" name="tracking-code">
+                </div>
+            </fieldset>
+
+    </form>
+    </div>
+    
+</body>
+</html>
