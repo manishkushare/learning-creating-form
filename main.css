@@ -53,11 +53,11 @@ table {
 } */
 
 .container {
-    max-width: 1000px;
+    max-width: 600px;
     margin: 0 auto;
     background-color: antiquewhite;
 }
-input{
+/* input{
     margin: 0.2rem 0;
 }
 
@@ -78,4 +78,39 @@ legend{
     background-color: rgb(201, 195, 144);
     border-radius: 2rem;
     padding: 1rem 0;
+} */
+.form-input{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+
+}
+.email,.username,.name,.age{
+  display: flex;
+  flex-direction: column;
+}
+.form-input > div{
+  margin: 0.5rem 0
+}
+
+/* input:required{
+    border: 2px solid blue;
+}
+
+input:invalid{
+    border: 2px dashed red;
+}
+input:valid{
+    border: 2px solid green;
+} */
+
+.success {
+    background-color: rgb(123, 139, 98);
+    border: 1px solid green;
+}
+
+.error{
+    background-color: rgb(218, 176, 176);
+    border: 1px solid red;
 }

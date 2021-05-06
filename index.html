@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>forms</title>
     <link rel="stylesheet" href="./main.css">
+    <script src="./main.js"  defer></script>
 </head>
 <body>
-    <!-- form element is used to wrap the all elements included inside form  -->
+    <!-- form creation -->
     <div class="container">
-        <form action="" class="form-col">
+        <!-- <form action="" class="form-col">
 
             <legend>Form</legend>
             <fieldset>
@@ -58,7 +59,7 @@
                         <textarea name="comment" id="" cols="30" rows="10" id="comment"></textarea>
     
                 </div>
-                    <!-- radio button -->
+              
                     
                 <div class="radio-button flex">
                     <label>
@@ -78,7 +79,7 @@
                     </label>
                 </div>
                 
-                <!-- checkbox -->
+   
                 <div class="checkbox flex">
                     <label for="">
                         <input type="checkbox" name="hey" value = "one" id=""> One
@@ -109,12 +110,6 @@
 
                 </div>
                 
-                <!-- <select name="hello" id="" multiple>
-                    <option value="Mon" selected>Mon</option>
-                    <option value="Tue">Tue</option>
-                    <option value="Wed">Wed</option>
-                    <option value="Thur">Thurs</option>
-                </select> -->
                
                 <div class="file-input flex">
 
@@ -126,8 +121,53 @@
                 </div>
             </fieldset>
 
-    </form>
+    </form> -->
+
+
+
+
+
+        <!-- form validation -->
+        <form action="">
+		    <fieldset class="form-input">
+                <div class="username">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" class="username" >
+                    <small></small>
+                </div>
+                <div class="name">
+                    <label for="name">Name</label>
+                    <input type="text" class="name" id="name" name="name">
+                    <small></small>
+                </div>
+                <div class="email">
+                  <label for="email">Email</label>
+                  <input type="email" name="email" id="email" placeholder="enter your email" >
+                </div>
+                <div class="age">
+                    <label for="age">Age</label>
+                    <input type="number" name="age"  id="age">
+                </div>
+                <!-- <div class="select-element">
+                    <select name="gender" id="">
+                          <option value="Male">Male</option>
+                          <option value="Female">Female</option>
+                          <option value="Other">Other</option>
+                    </select>
+                </div>
+                <div class="checkbox-element">
+                    <label for="">
+                        <input type="checkbox" name="terms" id="">I agree to terms
+
+                    </label>
+
+                </div> -->
+					<button type="submit">Submit</button>
+		
+			</fieldset>
+
+		</form>
     </div>
-    
+     
 </body>
 </html>
